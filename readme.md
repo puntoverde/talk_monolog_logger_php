@@ -8,10 +8,10 @@ Slides and example code of my ViennaPHP-Talk in October 2013.
 * Message distribution with MQTT to a message server (MQ-Server).
 + Demonstration of a proof of concept for the MQ-System for remote debugging and logging.
 
-Speacial Features
+Special Features
 -----------------
 
-The example code can be the missing cookbook for Monolog, because you can find there examples and descriptions for many many features of Monolog.
+The example code can be the <b>missing cookbook</b> for Monolog, because you can find there examples and descriptions for many many features of Monolog.
 
 Requirements
 ------------
