@@ -19,7 +19,7 @@
 
 // Setup MQTT-Connection
 
-    $mqServer['host'] = "lavande.local";
+    $mqServer['host'] = "localhost";
     $mqServer['port'] = 1883;
     $mqClientID = "PHP MQTT Client";
 

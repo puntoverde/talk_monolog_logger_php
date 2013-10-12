@@ -39,7 +39,7 @@
 
                 use Monolog\Handler\mqttHandler;
                 $clientID = "PHP MQTT Client";
-                $host = "lavande.local";
+                $host = "localhost";
                 $port = 1883;
                 $handler = new MqttHandler($clientID, $host, $port);
                 $logger->pushHandler($handler);
