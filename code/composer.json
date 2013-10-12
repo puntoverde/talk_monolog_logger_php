@@ -1,0 +1,30 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "bluerhinos/phpMQTT",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/bluerhinos/phpMQTT.git",
+                    "type": "git",
+                    "reference":"42eb5bcbc7b23a5a1e84534852feb9e7cc1f3bdc"
+                }
+            }
+        }
+    ],
+    "require": {
+        "maximebf/debugbar": "1.6.1",
+        "monolog/monolog": "1.6.0",
+        "bluerhinos/phpMQTT": "master"
+    }
+}
